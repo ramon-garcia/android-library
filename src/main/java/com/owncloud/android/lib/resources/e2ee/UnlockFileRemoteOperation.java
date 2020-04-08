@@ -44,7 +44,7 @@ public class UnlockFileRemoteOperation extends RemoteOperation {
     private static final int SYNC_READ_TIMEOUT = 40000;
     private static final int SYNC_CONNECTION_TIMEOUT = 5000;
     private static final String LOCK_FILE_URL = "/ocs/v2.php/apps/end_to_end_encryption/api/v1/lock/";
-    private static final String TOKEN = "token";
+    private static final String TOKEN = "e2e-token";
 
     private String localId;
     private String token;
